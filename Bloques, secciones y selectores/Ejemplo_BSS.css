@@ -1,0 +1,20 @@
+/* Todos los elementos de la página */
+* { font: Arial, Helvetica, sans-serif; }
+
+/* Todos los párrafos de la página */
+p { color: #555; } /* 555 es el color gris*/
+
+/* Todos los párrafos contenidos en #primero */
+#primero p { color: #336699; } /* #336699 color azul fuerte */
+
+/* Todos los enlaces de la página */
+a { color: #CC3300; } /* #CC3300 medio rojo-naranja */
+
+/* Los elementos "span" contenidos en #primero */
+#primero span { background: #FFFFCC; padding: .1m; }/* #FFFFCC es el color amarillo pálido */
+
+/* Todos los elementos "span" de clase "especial" en toda la página */
+span.especial { background: #FFCC99; border: 1px solid #FF9900; padding: .1em; } /* #FFCC99 es el color naranja pálido, #FF9900 es el color naranja.  */
+
+/* Elementos "span" contenidos en .normal */
+.normal span { font-weight: bold; }
