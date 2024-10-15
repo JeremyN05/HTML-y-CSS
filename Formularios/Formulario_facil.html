@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Formulario</title>
+			<meta charset="utf-8">
+			<link rel="stylesheet" href="Formulario_facil.css">
+	</head>
+
+	<body>
+		<div class="especial">
+			<h1 class="izquierda">Create Your Account</h1>
+				<form action="servicio.php" method="get">
+							<input class="azul" type="submit" value="Continue with Facebook" id="identificador"><br>
+			<h6 class="ps">OR</h6>
+
+			<label for="texto">Email*</label><br>
+				<input type="text" id="texto" name="texto" size="40" maxlength="25" placeholder="Ejem: JuanJimenez@gmail.com" required><br><br>
+			<label for="texto">Contraseña*</label><br>
+				<input type="password" id="pass" name="nombre"  size="40" maxlength="20" required><br><br>
+			<label for="texto">Nombre*</label><br>
+				<input type="text" id="na" name="nombre"  size="40" maxlength="20" required><br><br>
+			<label for="texto">Fecha de nacimiento</label><br>
+
+			<select name="Mes">
+				<optgroup label="Mes">
+					<option value="En">Enero</option>
+					<option value="Fe">Febrero</option>
+					<option value="Mar">Marzo</option>
+					<option value="Ab">Abril</option>
+					<option value="May">Mayo</option>
+					<option value="Jun">Junio</option>
+					<option value="Jul">Julio</option>
+					<option value="Ag">Agosto</option>
+					<option value="Sep">Septiembre</option>
+					<option value="Oct">Octubre</option>
+					<option value="Nov">Noviembre</option>
+					<option value="Dic">Diciembre</option>
+				</optgroup>
+			</select>
+
+			<select name="Diá">
+				<optgroup label="Día">
+					<option value="día">01</option>
+					<option value="día">02</option>
+					<option value="día">03</option>
+					<option value="día">04</option>
+					<option value="día">05</option>
+					<option value="día">06</option>
+					<option value="día">07</option>
+					<option value="día">08</option>
+					<option value="día">09</option>
+					<option value="día">10</option>
+					<option value="día">11</option>
+					<option value="día">12</option>
+					<option value="día">13</option>
+					<option value="día">14</option>
+					<option value="día">15</option>
+					<option value="día">16</option>
+					<option value="día">17</option>
+					<option value="día">18</option>
+					<option value="día">19</option>
+					<option value="día">20</option>
+					<option value="día">21</option>
+					<option value="día">22</option>
+					<option value="día">23</option>
+					<option value="día">24</option>
+					<option value="día">25</option>
+					<option value="día">26</option>
+					<option value="día">27</option>
+					<option value="día">28</option>
+					<option value="día">29</option>
+					<option value="día">30</option>
+					<option value="día">31</option>
+				</optgroup>
+			</select>
+
+			<select name="Año">
+				<optgroup label="Año">
+					<option value="Año">1997</option>
+					<option value="Año">1998</option>
+					<option value="Año">1999</option>
+					<option value="Año">2000</option>
+					<option value="Año">2001</option>
+				</optgroup>
+			</select><br><br>
+				<label for="texto" >Género</label><br>
+			<select name="Genero">
+					<option value="H">Hombre</option>
+					<option value="M">Mujer</option>
+					<option value="Pnd">Prefiero no decirlo</option>
+					<option value="Otr">Otro</option>
+				<button>Enviar</button><button type="reset" value="Reset" id="identificador">Reset</button>
+			</select>
+			</form>
+		</div>
+	</body>
+</html>

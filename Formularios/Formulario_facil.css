@@ -1,0 +1,13 @@
+*{
+	text-align: center;
+}
+label.ps{
+	text-align: center-left;
+}
+h1.izquierda{
+	text-align: center;
+}
+input.azul{
+	color: white;
+	background-color: blue;
+}
