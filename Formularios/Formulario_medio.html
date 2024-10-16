@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+	
+		<title>Formulario medio </title>
+			<meta charset="utf-8">
+			<link rel="stylesheet" href="formulario_medio.css">
+
+	</head>
+
+	<body>
+
+		<div class="especial">
+			<form action="servicio.php" method="post">
+			<h3>Paso 1: Tus datos </h3>
+				<fieldset>
+					<label for="text">Nombre*</label>
+						<input type="text" id="nombre" name="nombre"  size="30" maxlength="30" placeholder="Primer y segundo nombre" required>
+				</fieldset>
+				<fieldset>
+					<label for="texto">Email*</label>
+						<input type="text" id="email" name="email" size="30" maxlength="25" placeholder="Example@domain.com" required>
+				</fieldset>	
+				<fieldset>	
+					<label for="text">Teléfono*</label>
+						<input type="text" id="number" name="number" size="30" maxlength="15" placeholder="Ej: +4475000000" required>
+				</fieldset>
+				<h3>Paso 2: Dirección de entrega</h3>
+
+				<fieldset>
+					<p>Dirección</p>
+					<textarea rows="5" cols="40" name="address"></textarea>
+				</fieldset>
+				<fieldset>
+					<label for="text">Código Postal</label>
+						<input type="text" id="Código" name="Código" size="30" maxlength="15" required>
+				</fieldset>
+				<fieldset>
+					<label for="text">Ciudad</label>
+						<input type="text" id="Código" name="Código" size="30" maxlength="15" required>
+				</fieldset>
+				<fieldset>
+					<p>Tipo de tarjeta</p>
+						<input type="radio" name="tarjeta" id="visa" value="v"><img src="visa-logo.png"><label class="izquierda" for="visa">VISA</label>
+						<input type="radio" name="tarjeta" id="amex" value="am"><img src="amex.png"> <label class="izquierda" for="amex">AmEx</label>
+						<input type="radio" name="tarjeta" id="mastercad" value="ma"><img src="mastercard.png"> <label class="izquierda" for="mastercad">Mastercard</label>
+				</fieldset>
+				<fieldset>
+					<label for="text">Número de tarjeta</label>
+						<input type="text" id="Nu" name="Numero de tarjeta" size="30" maxlength="15" required>
+				</fieldset>
+				<fieldset>
+					<label for="text">Código de seguridad</label>
+						<input type="text" id="Código_seguridad" name="Código_seguridad" size="30" maxlength="15" required>
+				</fieldset>
+				<fieldset>
+					<label for="text">Nombre tarjeta</label>
+						<input type="text" id="Nombre_tarjeta" name="Nombre_tarjeta" size="30" maxlength="15" required>
+				
+				</fieldset>
+			<button type="submit">Realizar compra</button>
+		</div>
+
+	</body>
+
+</html>	

@@ -1,0 +1,26 @@
+*{
+	font-weight: bold;
+}
+fieldset{
+	background: #c7ed8b;
+}
+input{
+margin-left: 38px;
+}
+form{
+	width: 500px;
+	padding: 4px 12px 25px 12px;
+	background-color: #8cc530;
+}
+img{
+	height: 10px;
+	width: 30px;
+}
+label.izquierda{
+	margin-left: 6px;
+}
+button{
+	background-color: #262d0c;
+	color: white;
+	margin-left: 185px;
+}
