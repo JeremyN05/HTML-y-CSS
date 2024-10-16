@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Formulario hard</title>
+			<meta charset="utf-8">
+			<link rel="stylesheet" href="Formulario_hard.css">
+	</head>
+
+	<body>
+	<form action="servicio.php" method="post">
+	    <h1 class="rojo">Formulario de ejemplo</h1>
+	        <div class="junto">
+		      <fieldset class="centro">
+
+			<legend><h3 class="azul">Datos Personales</h3></legend>
+
+			  <label for="text">Nombre:</label>
+			       <input type="text" id="name" name="nombre" size="40" maxlength="30" placeholder="Ingresa tu nombre" required><br><br>
+			  <label for="text">Apellido:</label>
+			       <input type="text" id="apellido" name="apellido" size="40" maxlength="30" placeholder="Ingresa tu apellido" required><br><br>
+			  <label for="text">Correo Electrónico:</label>
+			        <input type="text" id="correo" name="correo" size="40" maxlength="30" placeholder="Ingresa tu correo electrónico" required><br><br>
+		      </fieldset>
+		      <fieldset class="centro">
+
+		          <legend><h3 class="negro">Más Datos Personales</h3></legend>
+						
+			    <label for="text">Teléfono:</label>
+				<input type="text" id="teléfono" name="teléfono" size="40" maxlength="30" placeholder="Ingresa tu número de teléfono" required><br><br>
+			    <label for="fecha_nac">Fecha de nacimiento</label><br>
+				<input class="largo" type="date" name="fecha_nac" id="fecha_nac" size="40"><br><br>
+			    <label for="texto">Escribe tu contraseña</label>
+				<input type="password" name="nombre" id="identificador" size="40" placeholder="Ingresa tu contraseña" required><br>
+		      </fieldset>
+
+		</div>
+
+		      <fieldset class="ancho">
+
+			<legend><h3 class="naranja">Tus Hobbies</h3></legend>
+						
+			  <label for="text">Elige tu hobby:</label><br>			
+			  <select class="lar" name="Elige tu hobby">
+				<option value="lectura">Lectura</option>
+				<option value="Fútbol">Fútbol</option>
+			  </select><br><br>
+			Comentarios:<br>
+			<textarea rows="5" cols="60" name="texto" placeholder="Añade comentarios"></textarea><br><br>
+			</fieldset>
+
+		      <fieldset class="verde">
+					
+			<legend><h3 class="azulado">Preferencias de Comunicación</h3></legend>
+						
+			  <label for="text">Idioma preferido:</label><br>
+			  <select class="lar" name="Elige tu hobby">
+				<option value="Es">Español</option>
+				<option value="Ing">Inglés</option>
+				<option value="Fr">Francés</option>
+				<option value="Por">Portugués</option>
+			  </select><br><br>
+			Recibir notificaciones:<br>
+				<input type="radio" name="recibir" id="si" value="S"> <label for="hombre">Sí</label>
+				<input type="radio" name="recibir" id="no" value="N"> <label for="hombre">No</label>
+		      </fieldset><br>
+	
+	<button class="marron"><h1>Enviar</h1></button><button class="rosa" type="reset" value="Reset" id="identificador"><h1>Reiniciar</h1></button>
+		
+	</form>
+	</body>
+</html>

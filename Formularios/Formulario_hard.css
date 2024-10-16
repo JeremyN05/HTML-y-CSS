@@ -1,0 +1,74 @@
+h1.rojo{
+	color: red;
+	text-align: right;
+}
+h3.azul{
+	text-align: left;
+	background: blue;
+	color: white;
+	padding: 7px 11px 9px 12px;
+	border-radius: 6px;
+}
+.centro{
+	width: 320px;
+}
+.junto{
+	display: flex;
+}
+fieldset{
+	background: #e3e0e0;
+}
+h3.negro{
+	text-align: left;
+	background: black;
+	color: white;
+	padding: 7px 11px 9px 12px;
+	border-radius: 6px;
+}
+form{
+	width: 500px;
+	padding: 20px 224px 30px 28px;
+	background-color: #940b9f;
+	border-radius: 55px;
+}
+h3.naranja{
+	text-align: left;
+	background: #ff5722;
+	color: white;
+	padding: 7px 11px 9px 12px;
+	border-radius: 6px;
+}
+input.largo{
+	width: 310px;
+}
+select.lar{
+	width: 310px;
+}
+fieldset.ancho{
+	padding: 0px 213px 7px 15px;
+	background: #b7b1b1;
+}
+fieldset.verde{
+	padding: 0px 363px 11px 15px;
+	background: #676161;
+}
+h3.azulado{
+	text-align: left;
+	background: #328353;
+	color: white;
+	padding: 7px 11px 9px 12px;
+	border-radius: 6px;
+}
+button.marron{
+	color: white;
+	background: #af5f0d;
+	padding: 13px 13px 11px 16px;
+	border-radius: 6px;
+}
+button.rosa{
+	color: white;
+	background: #e122ff;
+	padding: 3px 11px 3px 12px;
+	margin: 0px 0px 0px 63px;
+	border-radius: 6px;
+}
